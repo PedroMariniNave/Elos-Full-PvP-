@@ -1,0 +1,6 @@
+name: ${project.artifactId}
+description: ${project.description}
+version: ${project.version}
+api-version: 1.8
+main: com.zpedroo.voltzelos.VoltzElos
+softdepend: [Legendchat]

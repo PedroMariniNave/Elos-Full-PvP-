@@ -1,0 +1,6 @@
+name: Elos
+description: Only a simple elos plugin.
+version: 1.0
+api-version: 1.8
+main: com.zpedroo.voltzelos.VoltzElos
+softdepend: [Legendchat]

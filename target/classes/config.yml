@@ -1,0 +1,50 @@
+MySQL:
+  enabled: false
+  host: localhost
+  database: db
+  username: user
+  password: pass
+  port: 3306
+
+Settings:
+  save-interval: 600 # em segundos
+  commands:
+    elos:
+      command: elos
+      aliases: [elo]
+
+Messages:
+  upgrade:
+    - '&6&lVoltz&f&lMC &8&l➜ &7O jogador &f{player} &7evoluiu para o elo {elo_tag}&7!'
+  downgrade:
+    - '&6&lVoltz&f&lMC &8&l➜ &7O jogador &f{player} &7caiu para o elo {elo_tag}&7!'
+
+Titles:
+  upgrade:
+    title: '&6&lUP!'
+    subtitle: '&7Você evoluiu de elo!'
+  downgrade:
+    title: '&c&lDOWNGRADE!'
+    subtitle: '&7Você caiu de elo!'
+
+Next-Page:
+  type: ARROW
+  name: '&aPróxima Página'
+
+Previous-Page:
+  type: ARROW
+  name: '&cPágina Anterior'
+
+Elos:
+  Copper:
+    tag: '&6[Cobre]'
+    required-points: 0
+    upgrade-commands: []
+    downgrade-commands: []
+  Silver:
+    tag: '&7[Prata]'
+    required-points: 10
+    upgrade-commands:
+      - 'pex user {player} group remove {old_elo}'
+      - 'pex user {player} group add {new_elo}'
+    downgrade-commands: []

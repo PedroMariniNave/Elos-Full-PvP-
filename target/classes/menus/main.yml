@@ -1,0 +1,33 @@
+Inventory:
+  title: "Elos"
+  size: 27
+  items:
+    1:
+      type: SKULL_ITEM
+      owner: '{player}'
+      name: '&6{player}'
+      lore:
+        - '&7Abaixo estão suas informações:'
+        - ''
+        - ' &8▶ &7Kills: &a{kills}'
+        - ' &8▶ &7Mortes: &c{deaths}'
+        - ' &8▶ &7Pontos: &f{points}'
+      slot: 11
+    elos:
+      action: ELOS
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQ3MmNkNzkyZTk3MDllMjg0NjhmNzFiM2Q4ODY0ZTViYTE2ODIwZjFlOTdmNDQzYzBiZWY1YjEzMmJkZDEzNiJ9fX0=
+      name: '&6Elos'
+      lore:
+        - '&7Clique para ver os elos e'
+        - '&7seus respectivos requisitos!'
+      slot: 13
+    top:
+      action: TOP
+      type: SKULL_ITEM
+      owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjRhZjhkNTc1ZjBhNTI0ZWY2NmEyMTU3M2U4YTRhOGFjN2Q2NDBiMDBkOThlMmU5Mzc0ZTYwNDcwZTdjODZmMCJ9fX0=
+      name: '&6Top Elos'
+      lore:
+        - '&7Clique para ver os jogadores'
+        - '&7que possuem os maiores elos!'
+      slot: 15

@@ -1,0 +1,51 @@
+Inventory:
+  title: 'Elos'
+  size: 54
+  slots: 11,12,13,14,15,20,21,22,23,24,29,30,31,32,33,38,39,40,41,42
+  next-page-slot: 26 # só vai aparecer se tiver próxima página
+  previous-page-slot: 18 # só vai aparecer se tiver página anterior
+  items:
+    Copper:
+      locked:
+        type: SKULL_ITEM
+        owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+        name: '&cBronze'
+        lore:
+          - '&7Esse é o primeiro elo!'
+          - ''
+          - '{status}'
+      unlocked:
+        type: SKULL_ITEM
+        owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY0MjEwOGI5ZGIzOTdlMzQxNmE1YjEyN2I5Njg0YjdkODM0MTViMjllMDg0YjYxNDQ3NTZjMGM3N2E0MzIifX19'
+        name: '&aBronze'
+        lore:
+          - '&7Esse é o primeiro elo!'
+          - ''
+          - '{status}'
+    Silver:
+      locked:
+        type: SKULL_ITEM
+        owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ=='
+        name: '&cPrata'
+        lore:
+          - '&7Abaixo estão as informações'
+          - '&7desse elo:'
+          - ''
+          - ' &8▶ &7Necessário: &f{required_points} &7pontos'
+          - ''
+          - '{status}'
+      unlocked:
+        type: SKULL_ITEM
+        owner: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY0MjEwOGI5ZGIzOTdlMzQxNmE1YjEyN2I5Njg0YjdkODM0MTViMjllMDg0YjYxNDQ3NTZjMGM3N2E0MzIifX19'
+        name: '&aPrata'
+        lore:
+          - '&7Abaixo estão as informações'
+          - '&7desse elo:'
+          - ''
+          - ' &8▶ &7Necessário: &f{required_points} &7pontos'
+          - ''
+          - '{status}'
+
+Lore-Filter:
+  locked: '&cAtualmente esse elo está bloqueado!'
+  unlocked: '&aVocê já desbloqueou esse elo!'
